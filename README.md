@@ -5,7 +5,7 @@
 
 **안성재 (An Seongjae)**
 
-seongjae.an98@gmail.com · [Velog](https://velog.io/@sammy0329) · [LinkedIn](www.linkedin.com/in/seong-jae-an-39957a3b0)
+seongjae.an98@gmail.com · [Velog](https://velog.io/@sammy0329) · [LinkedIn](https://www.linkedin.com/in/seong-jae-an-39957a3b0)
 
 </div>
 
