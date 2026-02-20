@@ -152,7 +152,7 @@ AI가 이 설정을 기반으로 동작하기 때문에, 코드 스타일부터 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sammy0329&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" />
+<img src="https://github-readme-stats-nine-ruddy-37.vercel.app/api?username=sammy0329&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" />
 <img src="https://streak-stats.demolab.com/?user=sammy0329&theme=tokyonight&hide_border=true" height="170" />
 
 </div>
