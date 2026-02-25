@@ -132,6 +132,29 @@ Claude Code, Cursor 같은 AI 도구를 활용해 아이디어를 빠르게 프�
 
 ---
 
+### 백준 알고리즘 일일 추천 & AI 코드 리뷰 Slack 봇
+
+> **AI(GPT·Claude·Gemini) 코드 리뷰와 백준 문제 추천을 자동화하는 AWS Lambda 기반 서버리스 Slack 봇**
+
+**기간:** 2026.02.22 ~ 2026.02.24 (3일) · **역할:** Fullstack (개인 프로젝트)
+
+![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+![AWS SAM](https://img.shields.io/badge/AWS_SAM-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack_API-4A154B?style=flat-square&logo=slack&logoColor=white)
+
+- Lambda 비동기 호출 패턴(`InvocationType: Event`)으로 Slack 3초 응답 제한 해결 - WorkerFunction이 SlackEventsFunction과 독립적으로 AI 처리 수행
+- esbuild Minify + PreWarm 트리거 + 메모리 최적화로 콜드 스타트 최대 -32%, 실행 비용(GB-초) -63% 달성
+- AI(GPT · Claude · Gemini)를 Factory 패턴으로 추상화 - DynamoDB 설정 항목 하나로 코드 변경 없이 런타임 AI 전환
+- DynamoDB 단일 테이블 설계로 7가지 액세스 패턴을 GSI 없이 PK/SK 조합만으로 해결
+- HMAC-SHA256 서명 검증 · 멱등성 체크 · 일별 요청 제한으로 위조·중복·남용 요청 차단
+- AWS SAM IaC로 Lambda · API Gateway · EventBridge · DynamoDB · SQS DLQ 전체 인프라를 코드로 정의
+
+[Repository](https://github.com/sammy0329/algo-daily-bot) · [Portfolio](https://enchanting-ghost-b55.notion.site/Daily-Algo-Slack-bot-3122cb75da7b80f89538f625486213ed) · [Blog](https://velog.io/@sammy0329/series/Project-algo-daily-bot)
+
+---
+
 ## How I Work with AI
 
 > AI에게 명확한 맥락을 먼저 제공하면, 방향이 흔들리지 않고 수정 루프가 줄어듭니다.
